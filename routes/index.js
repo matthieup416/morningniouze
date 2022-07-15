@@ -24,7 +24,7 @@ router.get('/wishlist-article', async function (req, res, next) {
   console.log('user ', user)
 
   if (user !== null) {
-    // SI on recoit une langue du frontend, on filtre par langue, sinon on envoie toutes les langues
+    // SI on recoit une langue du frontend,  on filtre par langue, sinon on envoie toutes les langues
     result = true
     if (req.query.lang) {
       console.log('langue selectionnee : ', req.query.lang)
