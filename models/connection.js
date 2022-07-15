@@ -7,7 +7,7 @@ var options = {
 }
 
 mongoose.connect(
-  'mongodb+srv://test:test@cluster0.orqbr.mongodb.net/morning?retryWrites=true&w=majority',
+  'mongodb+srv://test:PASSWORD@cluster0.orqbr.mongodb.net/morning?retryWrites=true&w=majority',
   options,
   function (error) {
     if (error == null) {
